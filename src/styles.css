@@ -1,0 +1,30 @@
+.home {
+  padding: 2rem;
+}
+
+.home h2 {
+  margin-bottom: 1rem;
+  text-align: center;
+  color: #333;
+}
+
+.admin-dashboard {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+.admin-dashboard .card {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  color: #fff;
+  font-size: 1.1rem;
+  transition: transform 0.2s;
+}
+
+.admin-dashboard .card:hover {
+  transform: translateY(-5px);
+}
